@@ -1,4 +1,8 @@
 """
+The python module argparse makes it easy to write user-friendly 
+command line interfaces.
+https://docs.python.org/3/library/argparse.html
+
 The Python standard library's 'calendar' module allows you to
 render a calendar to your terminal.
 https://docs.python.org/3.6/library/calendar.html
@@ -27,6 +31,6 @@ print out a calendar for April in 2015, but if you omit either the year or both 
 it should use today’s date to get the month and year.
 """
 
-import sys
+import argparse 
 import calendar
 from datetime import datetime
